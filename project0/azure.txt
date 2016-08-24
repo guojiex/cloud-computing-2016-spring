@@ -1,7 +1,0 @@
-azure login --username jiexing@jiexing1outlook.onmicrosoft.com --password Vaso4548
-
-https://storeproject0.blob.core.windows.net/system/Microsoft.Compute/Images/vhds/primertest-osDisk.7ec2e680-5a2f-462b-ba77-cd7b707389d4.vhd
-
-azure storage blob copy start https://cc15619.blob.core.windows.net/system/Microsoft.Compute/Images/vhds/cc15619p0lgv2-osDisk.838bf28c-ed03-41f9-9810-4cbfa668d22e.vhd --dest-account-name storeproject0 --dest-account-key guaW3nKYUjZ7w6jNogcHr2dccfRuJP7FgyO0oQWmK+He2ZSsgVe03jsqq3K0h+gBnY1CwBbFX4YZ9/qX4ME+/w== --dest-container system
-
-
