@@ -1,2 +1,0 @@
-mysqlimport -u root -pdb15319root --local --lines-terminated-by="\n" --fields-terminated-by="," song_db /home/ubuntu/Project3_1/songs.csv
-mysqlimport -u root -pdb15319root --local --lines-terminated-by="\n" --fields-terminated-by="," song_db /home/ubuntu/Project3_1/sales.csv
