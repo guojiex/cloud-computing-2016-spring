@@ -1,0 +1,14 @@
+azure role assignment create --objectId 719b7b64-9b98-42a8-a9cb-041bd8a9c352 -o Owner
+info:    Executing command role assignment create
++ Finding role with specified name
+-data:    RoleAssignmentId     : /subscriptions/40fbcdf9-e69f-4720-844a-f549f7160bfd/providers/Microsoft.Authorization/roleAssignments/4866a13f-b902-48e1-9467-a5023dbd8202
+data:    RoleDefinitionName   : Owner
+data:    RoleDefinitionId     : 8e3af657-a8ff-443c-a75c-2fe8c4bcb635
+data:    Scope                : /subscriptions/40fbcdf9-e69f-4720-844a-f549f7160bfd
+data:    Display Name         : guojiexBlog
+data:    SignInName           :
+data:    ObjectId             : 719b7b64-9b98-42a8-a9cb-041bd8a9c352
+data:    ObjectType           : ServicePrincipal
+data:
++
+info:    role assignment create command OK

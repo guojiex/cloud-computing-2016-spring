@@ -1,0 +1,181 @@
+; MSB Junior System Architect Test
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2016-02-05 18:13:37
+type=junior
+testId=1454696017419
+testFile=test.1454696017419.log
+
+[Minute 1]
+rps=685.43
+
+[Minute 2]
+rps=730.06
+
+[Minute 3]
+rps=786.54
+
+[Minute 4]
+rps=1395.10
+
+[Minute 5]
+rps=1419.10
+
+[Minute 6]
+rps=1816.08
+
+[Minute 7]
+rps=1831.18
+
+[Minute 8]
+rps=1903.50
+
+[Minute 9]
+rps=2837.03
+
+[Minute 10]
+rps=2429.03
+
+[Minute 11]
+rps=2485.71
+
+[Minute 12]
+rps=2477.06
+
+[Minute 13]
+rps=1971.23
+
+[Minute 14]
+rps=769.62
+
+[Minute 15]
+rps=745.05
+
+[Minute 16]
+rps=740.32
+
+[Minute 17]
+rps=359.65
+
+[Minute 18]
+rps=307.03
+
+[Minute 19]
+rps=452.03
+
+[Minute 20]
+rps=1803.23
+
+[Minute 21]
+rps=2363.05
+
+[Minute 22]
+rps=2346.83
+
+[Minute 23]
+rps=2334.71
+
+[Minute 24]
+rps=2293.36
+
+[Minute 25]
+rps=2267.20
+
+[Minute 26]
+rps=2209.65
+
+[Minute 27]
+rps=2094.20
+
+[Minute 28]
+rps=1824.78
+
+[Minute 29]
+rps=1111.06
+
+[Minute 30]
+rps=479.50
+
+[Minute 31]
+rps=545.48
+
+[Minute 32]
+rps=531.04
+
+[Minute 33]
+rps=554.38
+
+[Minute 34]
+rps=556.35
+
+[Minute 35]
+rps=524.95
+
+[Minute 36]
+rps=2711.30
+
+[Minute 37]
+rps=413.81
+
+[Minute 38]
+rps=531.01
+
+[Minute 39]
+rps=529.28
+
+[Minute 40]
+rps=258.27
+
+[Minute 41]
+rps=328.08
+
+[Minute 42]
+rps=410.35
+
+[Minute 43]
+rps=474.66
+
+[Minute 44]
+rps=485.35
+
+[Minute 45]
+rps=2722.43
+
+[Minute 46]
+rps=497.04
+
+[Minute 47]
+rps=489.63
+
+[Minute 48]
+rps=477.16
+
+[Load Generator]
+awsId=942601146658
+andrewId=jiexing
+amiId=ami-8ac4e9e0
+instanceId=i-00b421876bcf11600
+instanceType=m3.medium
+publicHostname=ec2-52-90-187-238.compute-1.amazonaws.com
+ipAddress=52.90.187.238
+
+[Elastic Load Balancer]
+dns=loadbalancerjie2-209606781.us-east-1.elb.amazonaws.com
+
+[Test End]
+time=2016-02-05 19:01:47
+rps=1256
+ih=209.48
+; Instance-Hour Usage
+; i-025e3dba1a6df5b52	m3.medium	48.17	2016-02-05 18:13:37	2016-02-05 19:01:47
+; i-027250f8ae2894c97	m3.medium	2.18	2016-02-05 18:20:24	2016-02-05 18:22:35
+; i-040b6e9a6270f2c8a	m3.medium	32.22	2016-02-05 18:29:34	2016-02-05 19:01:47
+; i-04df3c28ced4aa2b6	m3.medium	48.17	2016-02-05 18:13:37	2016-02-05 19:01:47
+; i-0637e6ed3899808fa	m3.medium	9.20	2016-02-05 18:52:28	2016-02-05 19:01:40
+; i-076aea31c281fbccf	m3.medium	19.68	2016-02-05 18:13:37	2016-02-05 18:33:18
+; i-0bdff5a06b782a0f5	m3.medium	20.68	2016-02-05 18:41:04	2016-02-05 19:01:45
+; i-0bf34f36b88d6e2db	m3.medium	29.18	2016-02-05 18:20:34	2016-02-05 18:49:45
+
+; MSB is validating...
+{"success":true,"message":"Your submission is in processing, submission token is:jiexing_p21-aws_88_1052202067 Wait and check your code, score and feedback on TPZ.","status":1200}
+; Test finished

@@ -1,0 +1,3 @@
+BEGIN {FS = ",";numsong=0;totalduration=0}
+{numsong=numsong+1;totalduration+=$8}
+END{print totalduration/numsong}

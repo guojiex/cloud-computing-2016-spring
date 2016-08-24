@@ -1,0 +1,48 @@
+azure ad app create --name "ccTest2" --home-page "https://YourApplicationHomePage" --identifier-uris "https://temp3" --password temp
+info:    Executing command ad app create
++ Creating application ccTest2
+data:    AppId:                   5773cd66-5d44-492e-be73-28bf8b8494fe
+data:    ObjectId:                829020d2-0bcd-4e13-adbc-cba1942f2bad
+data:    DisplayName:             ccTest2
+data:    IdentifierUris:          0=https://temp3
+data:    ReplyUrls:
+data:    AvailableToOtherTenants:  False
+data:    AppPermissions:
+data:                             claimValue:  user_impersonation
+data:                             description:  Allow the application to access ccTest2 on behalf of the signed-in user.
+data:                             directAccessGrantTypes:
+data:                             displayName:  Access ccTest2
+data:                             impersonationAccessGrantTypes:  impersonated=User, impersonator=Application
+data:                             isDisabled:
+data:                             origin:  Application
+data:                             permissionId:  32db8aa6-a4a7-4e46-ab09-629eee04c1b9
+data:                             resourceScopeType:  Personal
+data:                             userConsentDescription:  Allow the application to access ccTest2 on your behalf.
+data:                             userConsentDisplayName:  Access ccTest2
+data:                             lang:
+info:    ad app create command OK
+
+azure ad sp create 5773cd66-5d44-492e-be73-28bf8b8494fe
+info:    Executing command ad sp create
+- Creating service principal for application 5773cd66-5d44-492e-be73-28bf8b8494f+
+data:    Object Id:               55aebc92-95b8-451e-ad2a-e7fee97b284b
+data:    Display Name:            ccTest2
+data:    Service Principal Names:
+data:                             5773cd66-5d44-492e-be73-28bf8b8494fe
+data:                             https://temp3
+info:    ad sp create command OK
+
+azure role assignment create --objectId 55aebc92-95b8-451e-ad2a-e7fee97b284b -o Owner -c /subscriptions/de4983a8-1d3c-4331-9e43-0c4b19c10735/
+info:    Executing command role assignment create
++ Finding role with specified name
+\data:    RoleAssignmentId     : /subscriptions/de4983a8-1d3c-4331-9e43-0c4b19c10735/providers/Microsoft.Authorization/roleAssignments/1cd1d191-3f87-4058-8c5e-38a7f7ede9fc
+data:    RoleDefinitionName   : Owner
+data:    RoleDefinitionId     : 8e3af657-a8ff-443c-a75c-2fe8c4bcb635
+data:    Scope                : /subscriptions/de4983a8-1d3c-4331-9e43-0c4b19c10735
+data:    Display Name         : ccTest2
+data:    SignInName           :
+data:    ObjectId             : 55aebc92-95b8-451e-ad2a-e7fee97b284b
+data:    ObjectType           : ServicePrincipal
+data:
++
+info:    role assignment create command OK

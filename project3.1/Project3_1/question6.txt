@@ -1,0 +1,8 @@
+BEGIN {FS=","}
+{sale_number[$7]+=$3;artist_id[$7]=$9;}
+END{
+    OFS=",";
+    for(i in sale_number){
+        print sale_number[i],artist_id[i];
+    }
+}
