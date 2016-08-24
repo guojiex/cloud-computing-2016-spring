@@ -1,0 +1,8 @@
+BEGIN {FS=","}
+{v=$2;a[v]=a[v]" "$1}
+END{
+    OFS=",";
+    for(i in a){
+        print i,a[i];
+    }
+}

@@ -1,0 +1,1 @@
+I think it is because the accessed part of disk is cached in the memory in m3.large after serveal runs.The RPS of t1.micro did not vary as in m3.large. I think it is because the memory of t1.micro is limited and can not store those accessed part.

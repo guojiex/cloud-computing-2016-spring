@@ -1,0 +1,6 @@
+thisa   100
+thisb   100
+b   3
+a   3
+abc 1
+ac  3

@@ -1,0 +1,10 @@
+drop table if exists ngram;
+CREATE EXTERNAL TABLE ngram(ngram string, count int)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t'
+STORED AS TEXTFILE
+LOCATION '/mnt/output';
+
+INSERT OVERWRITE LOCAL DIRECTORY '/mnt/ngram'
+row format delimited fields terminated by '\t'
+select * from ngram order by count desc limit 200;
