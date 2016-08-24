@@ -2,3 +2,5 @@ target
 *.jar
 *.pem
 *.class
+.settings
+references
