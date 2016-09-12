@@ -1,3 +1,0 @@
-#!/bin/bash
-javac *.java 
-sudo java -Xmx3g Main
