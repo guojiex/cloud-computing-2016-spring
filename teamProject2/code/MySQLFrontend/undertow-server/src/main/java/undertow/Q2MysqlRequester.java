@@ -87,7 +87,7 @@ public class Q2MysqlRequester {
     private String URL = "jdbc:mysql://localhost/" + DB_NAME;
     private static final String DB_NAME = "tweet_db";
     private static final String DB_USER = "root";
-    private static final String DB_PWD = "db15319root";
+    private static final String DB_PWD = "root";
     //private static final String stringsql = "select tweetdata.rawtext from userhash,tweetdata where userhash.useridhash=? and userhash.rowkey=tweetdata.rowkey";
     private static final String stringsql = "select rawtext from tweetdata where useridhash='";
     public String getResponse(String userid, String hashtag)
